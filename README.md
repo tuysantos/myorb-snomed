@@ -1,9 +1,7 @@
 # myorb-snomed
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.4.
+
 Snomed CT is a clinical terminology that is used by physicians and other health care providers for the electronic exchange of clinical health information. This project allows you to insert a term and search for any related result.
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.4.
-
-This demo displays a list of albums with their year and artist. It is not possible to add duplicate titles per artist.
 
 This project uses the following tools and technologies:
 - Angular Material 13
