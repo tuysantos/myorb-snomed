@@ -1,0 +1,36 @@
+.logo-wrapper {
+    text-align: left;
+    margin-top: 20px;
+    img {
+        height: 40px;
+        cursor: pointer;
+    }
+}
+
+.details-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+    width: 400px;
+
+    .item-header {
+        margin-top: 8px;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .item-row {
+        margin-top: 8px;
+        text-align: left;
+        margin-left: 8px;
+    }
+    .navigate-back {
+        margin-top: 24px;
+        margin-right: 8px;
+        float: right;
+        button {
+            border-radius: 24px;
+            cursor: pointer;
+        }
+    }
+}

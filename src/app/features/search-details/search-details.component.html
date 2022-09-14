@@ -1,0 +1,15 @@
+<div class="logo-wrapper">
+    <img src="../../../assets/img/myOrb-logo.png" (click)="goToMain()">
+</div>
+<div class="details-wrapper">
+    <fieldset>
+        <legend>Product details</legend>
+        <div class="item-row">Product: {{termData?.term}}</div>
+        <div class="item-row">Active: {{termData?.active}}</div>
+        <div class="item-row">Id: {{termData?.concept?.id}}</div>
+        <div class="navigate-back">
+            <button mat-raised-button color="primary" type="button" (click)="goBack()">Back</button>
+        </div>
+    </fieldset>
+    
+</div>
